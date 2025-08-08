@@ -1,1 +1,0 @@
-import{_ as s}from"./DlAUqK2U.js";import{c as o,o as n,a as t}from"./50Bmj53n.js";const r={},a={class:"title"};function c(_,e){return n(),o("div",a,e[0]||(e[0]=[t("h1",null,"Hex Burger House",-1),t("p",null,"Bite into the Legend",-1)]))}const l=Object.assign(s(r,[["render",c],["__scopeId","data-v-d72dcd12"]]),{__name:"BaseTitle"});export{l as T};

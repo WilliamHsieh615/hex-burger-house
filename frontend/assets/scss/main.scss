@@ -1,0 +1,43 @@
+@use './abstracts/variables' as *;
+@use './abstracts/mixins' as *;
+@use './abstracts/animations' as *;
+@use './base/reset';
+
+@import "bootstrap-icons/font/bootstrap-icons.css";
+@import "@fortawesome/fontawesome-free/css/all.min.css";
+@import "flatpickr/dist/flatpickr.min.css";
+
+// @import "@fontsource/staatliches/index.css";
+// @import "@fontsource/anton/index.css";
+// @import "@fontsource/bebas-neue/index.css";
+// @import "@fontsource/russo-one/index.css";
+// @import "@fontsource/noto-sans-tc/index.css";
+// @import "@fontsource/oswald/index.css";
+// @import "@fontsource/roboto/index.css";
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+.wrap {
+    max-width: 1024px;
+    margin: 0 auto;
+    background: #EEE9E8;
+    font-family: $primary_font-family;
+    color: $secondary_color;
+}
+
+h1 {
+    font-family: $logo_font-family;
+    font-size: 50px;
+    text-align: center;
+    animation: var(--animation-blink-secondary);
+}
+
+.message{
+    span{
+        font-weight: bold;
+        font-size: 20px;
+    }
+}

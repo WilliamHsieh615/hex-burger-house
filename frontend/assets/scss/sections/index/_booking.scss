@@ -1,0 +1,89 @@
+@use '../../abstracts/variables' as *;
+
+.book {
+    padding: 50px 10px;
+
+    h2 {
+        font-family: $secondary_font-family;
+        font-size: 25px;
+        font-weight: bold;
+        margin: 0 auto;
+        text-align: center;
+        line-height: 1.2;
+        margin-bottom: 38px;
+    }
+
+    .form-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+
+        #map {
+            width: 460px;
+            height: 386px;
+        }
+
+        form {
+            width: 460px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            label {
+                margin-bottom: 6px;
+            }
+
+            &>input {
+                background: #FFFFFF;
+                border: 1px solid #CCCCCC;
+                box-shadow: inset 0px 1px 0px 0px #ECECEC;
+                border-radius: 3px;
+                text-indent: 10px;
+                height: 32px;
+                color: #4A4A4A;
+                margin-bottom: 12px;
+            }
+
+            span {
+                color: red;
+            }
+
+            .radio label {
+                margin-right: 36px;
+            }
+
+            .button {
+                margin-top: 28px;
+                text-align: end;
+            }
+
+            .resetBtn {
+                font-size: 14px;
+                color: #FFFFFF;
+                background: rgba(0, 0, 0, 0.35);
+                border-radius: 3px;
+                padding: 8px 20px;
+                cursor: pointer;
+            }
+
+            .resetBtn:hover {
+                background: gray;
+            }
+
+            .submitBtn {
+                font-size: 14px;
+                color: #FFFFFF;
+                background: #F56C23;
+                border-radius: 3px;
+                padding: 8px 20px;
+                margin-left: 12px;
+                cursor: pointer;
+            }
+
+            .submitBtn:hover {
+                background: red;
+            }
+        }
+    }
+}

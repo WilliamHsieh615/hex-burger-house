@@ -1,0 +1,180 @@
+{
+    "hamburger": [
+        {
+            "image": "signature_burger.jpg",
+            "name": "Signature Bro Burger",
+            "description": "Our signature burger with double beef patties, rich cheese, crispy bacon, and house-made sauce.",
+            "price": 100
+        },
+        {
+            "image": "classic_beef.jpg",
+            "name": "Classic Beef Burger",
+            "description": "Handcrafted beef patty with fresh lettuce, tomato, and onion — a timeless American classic.",
+            "price": 120
+        },
+        {
+            "image": "mc_chicken.jpg",
+            "name": "Crispy Chicken Burger",
+            "description": "Crispy fried chicken fillet with fresh lettuce and creamy mayo — a chicken lover's dream.",
+            "price": 90
+        },
+        {
+            "image": "double_cheese.jpg",
+            "name": "Double Cheese Burger",
+            "description": "Double layers of juicy beef and melted cheese, built for bold appetites.",
+            "price": 80
+        },
+        {
+            "image": "spicy_chicken.jpg",
+            "name": "Spicy Chicken Burger",
+            "description": "Crispy chicken thigh with spicy house sauce to light up your taste buds.",
+            "price": 90
+        },
+        {
+            "image": "double_pork_cheese.jpg",
+            "name": "Double Pork & Cheese Burger",
+            "description": "Double thick-cut pork patties and gooey cheese for a rich, savory bite.",
+            "price": 90
+        },
+        {
+            "image": "bacon_cheese.jpg",
+            "name": "Bacon Cheese Burger",
+            "description": "Smoky bacon, melty cheese, and a classic beef patty — a bite of happiness.",
+            "price": 110
+        },
+        {
+            "image": "veggie_burger.jpg",
+            "name": "Garden Veggie Burger",
+            "description": "A flavorful plant-based patty made with fresh vegetables and beans — healthy and hearty.",
+            "price": 85
+        }
+    ],
+    "fries": [
+        {
+            "image": "triple_fries.jpg",
+            "name": "Triple Fries Combo",
+            "description": "Shoestring, crinkle-cut, and curly fries — three flavors in one box.",
+            "price": 120
+        },
+        {
+            "image": "classic_fries.jpg",
+            "name": "Shoestring Fries",
+            "description": "Classic thin-cut fries, golden and crispy — a timeless favorite.",
+            "price": 80
+        },
+        {
+            "image": "crinkle_fries.jpg",
+            "name": "Crinkle Fries",
+            "description": "Ripple-cut fries with extra crisp and sauce-catching grooves.",
+            "price": 80
+        },
+        {
+            "image": "potato_wedges.jpg",
+            "name": "Potato Wedges",
+            "description": "Thick-cut, skin-on wedges with rich potato flavor — addictive and satisfying.",
+            "price": 80
+        },
+        {
+            "image": "curly_fries.jpg",
+            "name": "Curly Fries",
+            "description": "Fun spiral shapes with a hint of spice — you won't stop at one bite.",
+            "price": 85
+        },
+        {
+            "image": "cheese_fries.jpg",
+            "name": "Cheese Fries",
+            "description": "Golden fries smothered in creamy cheese sauce — pure comfort food.",
+            "price": 90
+        }
+    ],
+    "combo": [
+        {
+            "image": "classic_combo.jpg",
+            "name": "Classic Combo",
+            "description": "Choose one burger, fries, and a drink — simple and satisfying.",
+            "price": 180
+        },
+        {
+            "image": "chicken_combo.jpg",
+            "name": "Fried Chicken Combo",
+            "description": "Crispy fried chicken leg with fries and a drink — a fan favorite.",
+            "price": 190
+        },
+        {
+            "image": "double_combo.jpg",
+            "name": "Double Combo Meal",
+            "description": "Pick any two burgers with large fries and two drinks — made for sharing.",
+            "price": 350
+        },
+        {
+            "image": "family_combo.jpg",
+            "name": "Family Combo Set",
+            "description": "Three burgers, two large fries, and three drinks — a feast for the family.",
+            "price": 520
+        }
+    ],
+    "drink": [
+        {
+            "image": "cola.jpg",
+            "name": "Coca-Cola",
+            "description": "Classic fizzy soda to refresh and cleanse your palate.",
+            "price": 40
+        },
+        {
+            "image": "sprite.jpg",
+            "name": "Sprite",
+            "description": "Lemony-lime sparkling soda — light, crisp, and perfect with fried food.",
+            "price": 40
+        },
+        {
+            "image": "ice_tea.jpg",
+            "name": "Lemon Iced Tea",
+            "description": "Black tea brewed with lemon — cool, smooth, and thirst-quenching.",
+            "price": 45
+        },
+        {
+            "image": "milkshake_vanilla.jpg",
+            "name": "Vanilla Milkshake",
+            "description": "Creamy vanilla ice cream blended to silky perfection.",
+            "price": 65
+        },
+        {
+            "image": "milkshake_choco.jpg",
+            "name": "Chocolate Milkshake",
+            "description": "Rich chocolate blended into a smooth and sweet indulgence.",
+            "price": 65
+        },
+        {
+            "image": "cold_brew.jpg",
+            "name": "Cold Brew Coffee",
+            "description": "Slow-brewed black coffee with a bold and smooth finish.",
+            "price": 55
+        }
+    ],
+    "dessert": [
+        {
+            "image": "cheesecake.jpg",
+            "name": "New York Cheesecake",
+            "description": "Rich, dense, and creamy — a true classic from the Big Apple.",
+            "price": 75
+        },
+        {
+            "image": "choco_brownie.jpg",
+            "name": "Chocolate Brownie",
+            "description": "Fudgy, moist chocolate cake with the perfect bittersweet balance.",
+            "price": 70
+        },
+        {
+            "image": "ice_cream.jpg",
+            "name": "Vanilla Ice Cream",
+            "description": "Smooth and classic — delicious on its own or with any dessert.",
+            "price": 50
+        },
+        {
+            "image": "apple_pie.jpg",
+            "name": "Apple Pie",
+            "description": "Warm apple filling with cinnamon and a crispy crust — heavenly aroma guaranteed.",
+            "price": 60
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+@use '../abstracts/variables' as *;
+
+.retrieve-main {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 0 auto;
+    padding: 50px;
+}

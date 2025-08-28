@@ -1,0 +1,208 @@
+@use '../../abstracts/variables' as *;
+
+.checkout-form {
+    width: 80%;
+    border-top: 3px solid #FF5E45;
+    box-shadow: 3px 3px 4px 0px rgba(0, 0, 0, 0.16);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px;
+    margin: 0 auto;
+
+    h2 {
+        font-weight: 900;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .customerInfo,
+    .pickupMethod,
+    .invoiceSettings,
+    .paymentMethod {
+        background: #FFFFFF;
+        border-bottom: 5px solid $quaternary_color;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        padding: 20px;
+    }
+
+    .customerInfo {
+
+        .name,
+        .phone,
+        .email {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 3px;
+
+            .nameInput,
+            .phoneInput,
+            .emailInput {
+                position: relative;
+
+                input {
+                    width: 100%;
+                    padding: 6px 0;
+                    background: #FFFFFF;
+                    border: 1px solid #CCCCCC;
+                    box-shadow: inset 0px 1px 0px 0px #ECECEC;
+                    border-radius: 3px;
+                    text-indent: 30px;
+                }
+            }
+
+            .nameIcon,
+            .phoneIcon,
+            .emailIcon {
+                font-size: 15px;
+                color: rgba(61, 17, 0, 0.50);
+                position: absolute;
+                transform: translate(0, -50%);
+                top: 50%;
+                left: 10px;
+            }
+        }
+    }
+
+    .pickupMethod {
+
+        .pickUpTime,
+        .deliveryTime,
+        .address {
+            margin-top: 5px;
+            padding-left: 20px;
+
+            .pickup-time,
+            .delivery-time,
+            .address_detail {
+                width: 100%;
+                padding: 6px 0;
+                background: #FFFFFF;
+                border: 1px solid #CCCCCC;
+                box-shadow: inset 0px 1px 0px 0px #ECECEC;
+                border-radius: 3px;
+                text-indent: 10px;
+                margin-top: 3px;
+            }
+
+            .zipcode,
+            select {
+                width: 32.8%;
+                padding: 6px 0;
+                background: #FFFFFF;
+                border: 1px solid #CCCCCC;
+                box-shadow: inset 0px 1px 0px 0px #ECECEC;
+                border-radius: 3px;
+                text-indent: 10px;
+                margin-top: 3px;
+            }
+        }
+    }
+
+    .invoiceSettings {
+
+        input[type="text"] {
+            width: 100%;
+            padding: 6px 0;
+            background: #FFFFFF;
+            border: 1px solid #CCCCCC;
+            box-shadow: inset 0px 1px 0px 0px #ECECEC;
+            border-radius: 3px;
+            text-indent: 10px;
+            margin-top: 3px;
+        }
+
+        .carrier,
+        .tax-id {
+            padding-left: 20px;
+        }
+
+        .carrier label {
+            display: inline-block;
+            margin-top: 5px;
+        }
+    }
+
+    .paymentMethod {
+
+        ul {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .icon {
+            display: flex;
+            gap: 5px;
+
+            img {
+                display: block;
+                max-width: 40px;
+                aspect-ratio: 5 / 3;
+                object-fit: cover;
+            }
+        }
+
+        .linepay img {
+            max-width: 60px;
+            aspect-ratio: 7 / 2;
+        }
+
+        .jkpay img {
+            max-width: 60px;
+            aspect-ratio: 8 / 3;
+        }
+    }
+
+
+    .payment_button {
+        text-align: center;
+        width: 100%;
+        color: #FFFFFF;
+        padding: 10px 30px;
+        background: #F56C23;
+        border-radius: 3px;
+        cursor: pointer;
+
+        &:hover {
+            background: red;
+        }
+    }
+}
+
+@media (max-width: 770px) {
+    .checkout-form {
+        width: 100%;
+    }
+}
+
+@media (max-width: 540px) {
+    .checkout-form {
+        .pickupMethod {
+            .address {
+
+                .zipcode,
+                select {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .checkout-form {
+        .paymentMethod {
+            .credit-card {
+
+                .icon {
+                    display: none;
+                }
+            }
+        }
+    }
+}

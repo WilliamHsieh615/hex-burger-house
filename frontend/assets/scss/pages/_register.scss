@@ -1,0 +1,16 @@
+@use '../abstracts/variables' as *;
+
+.register-main {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+@media (max-width: 500px) {
+    .register-main {
+        padding: 50px 10px;
+    }
+}

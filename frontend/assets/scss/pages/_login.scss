@@ -1,0 +1,16 @@
+@use '../abstracts/variables' as *;
+
+.login-main {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+@media (max-width: 500px) {
+    .login-main{
+        padding: 50px 10px;
+    }
+}

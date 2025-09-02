@@ -1,0 +1,18 @@
+@use '../abstracts/variables' as *;
+
+.error-main {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 0 auto;
+    padding: 50px 10px;
+
+    .content {
+        text-align: center;
+        font-family: $greeting_font-family;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+}
